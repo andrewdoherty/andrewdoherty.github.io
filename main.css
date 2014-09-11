@@ -806,7 +806,7 @@ a:hover {
     margin:auto;
     z-index:-2;
     overflow-y:scroll;
-    -webkit-overflow-scrolling:touch
+    -webkit-overflow-scrolling: touch
 }
 
 #aboutWrapper h2 {
