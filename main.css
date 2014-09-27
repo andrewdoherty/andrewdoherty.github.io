@@ -330,28 +330,34 @@ textarea {
 
 @keyframes floating {
 0% {
-    transform:translateY(10%)
+    transform:translateY(10%);
+    -webkit-transform:translateY(10%)
 }
 
 50% {
-    transform:translateY(15%)
+    transform:translateY(15%);
+    -webkit-transform:translateY(15%)
 }
 
 100% {
-    transform:translateY(0%)
+    transform:translateY(0%);
+    -webkit-transform:translateY(0%)
 }
 }
 
 @-webkit-keyframes floating {
 0% {
-    -webkit-transform:translateY(10%)
+    transform:translateY(0%);
+    -webkit-transform:translateY(0%)
 }
 
 50% {
+    transform:translateY(15%);
     -webkit-transform:translateY(15%)
 }
 
 100% {
+    transform:translateY(0%)
     -webkit-transform:translateY(0%)
 }
 }
@@ -698,8 +704,7 @@ a:hover {
 }
 
 .dr-icon-menu:before {
-    content:"\e007";
-    text-shadow: 0px 3px 38px grey
+    content:"\e007"
 }
 
 .menuLinks {
@@ -817,7 +822,7 @@ a:hover {
 
 #aboutStory {
     width:92%;
-    margin-top:30%;
+    margin-top:40%;
     text-align:center
 }
 
