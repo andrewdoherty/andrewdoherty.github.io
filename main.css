@@ -799,7 +799,6 @@ a:hover {
     width:200px;
     margin:10% auto;
     color:#56BA9B;
-    display:block;
     position:relative;
     text-align:center
 }
@@ -822,7 +821,7 @@ a:hover {
 
 #aboutStory {
     width:92%;
-    margin-top:40%;
+    margin-top:50%;
     text-align:center
 }
 
