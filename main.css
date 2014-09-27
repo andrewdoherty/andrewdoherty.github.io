@@ -239,27 +239,27 @@ textarea {
 
 @-webkit-keyframes colors {
 0% {
-    color:#E25041
+    color:#56BA9B
 }
 
 20% {
-    color:#EB6B56
+    color:#62f9c7
 }
 
 40% {
-    color:#FAC51C
+    color:#e3fd80
 }
 
 60% {
-    color:#F7DA64
+    color:#ffe231
 }
 
 80% {
-    color:#FBA026
+    color:#ff81ed
 }
 
 100% {
-    color:#E25041
+    color:#9fd6ff
 }
 }
 
@@ -344,7 +344,7 @@ textarea {
 
 @-webkit-keyframes floating {
 0% {
-    -webkit-transform:translateY(0%)
+    -webkit-transform:translateY(10%)
 }
 
 50% {
