@@ -13,14 +13,20 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="marka-0.3.1/dist/css/marka.min.css">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,500' rel='stylesheet' type='text/css'>
-        <script src="marka-0.3.1/dist/js/marka.min.js"></script>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/jquery-ui-1.10.4.custom.min.js"></script> 
-       
+        <!--<script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>-->
+        <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+        <script src="js/modernizr.custom.js"></script>
+        <script>
+        $(document).ready(function() {
+            $.fn.fullpage();
+        });
+        </script>
     </head>
     
 <body>
@@ -31,87 +37,56 @@
         <!-- Add your site or application content here -->
     
 <div id="mainContent">
-    <div id="container" class="main">
+    <div id="wrapper">
+        <div id="container" class="main">
             <div class="side">
                 <nav class="dr-menu">
                     <div class="dr-trigger"><span class="fa dr-icon-menu"></span><a class="dr-label"></a></div>
                     <ul>
-                        <li><a href="#">Andrew Doherty</a></li>
+                        <li><a href="index">Andrew Doherty</a></li>
+                        <li><a href="about">About</a></li>
                         <li><a href="http://ndrewdoherty.tumblr.com/">UX Toolkit</a></li>
                              
                     </ul>
                         <ul class="menuLinks">
                             <a href="https://twitter.com/ndrewDoherty"><li class="fa fa-twitter" ></li></a>
-                            <a href=“mailto:r.andrew.doherty@gmail.com” data-rel="external"><li class="fa fa-envelope-o"></li></a>
+                            <a href='mailto:r.andrew.doherty@gmail.com' target="_top"><li class="fa fa-envelope-o"></li></a>
                         </ul>
                 </nav>
                 
                 
-            </div>
+            </div><!--side-->
 
-    </div><!--side menu-->
+        </div><!--containter main-->
+         
     
     
-    <div id="aboutWrapper">
             
-            <div id="mark" class="floating">
-                <i id="icon"></i>
-                <script>
-                    var m = new Marka('#icon');
-                    m.set('arrow');
-                    m.rotate('down');
-                    m.color('#56BA9B');
-                    $(window).scroll(function() {
-                        if (scrollY > 1000);
-                        m.rotate('up');
-                        m.set('check');
-                        
-                    });
-                        
-                
-                </script>
-            </div>
+            
         
-            <div id="aboutStory">
-                <h1>My Story</h1>
-                    <h3>Grew up just outside of Boston</h3>
-                    <h3>Played sports growing up, mostly hockey</h3>
-                    <h3>Went to Holy Cross, studied Economics</h3>
-                    <h3>Graduated and had no idea what I wanted to do</h3>
-                    <h3>Started out in finance, worked at State Street</h3>
-                    <h3>Figured out what I didn't want to do</h3>
-                    <h3>Became obsessed with tech and startups</h3>
-                    <h3>Tried to start a company</h3>
-                    <h3>It didn't go very well, but I learned a ton</h3>
-                    <h3>Taught myself design and learned to code</h3>
-                    <h3>Took a <a href="https://generalassemb.ly/education/front-end-web-development">Front End Web Development</a> class at GA</h3>
-                    <h3>Helped out a couple friends with websites</h3>
-                    <h3>Consulted at a craft beer distributor</h3>
-                    <h3>Helped them bring <a href="http://www.bostonglobe.com/business/2014/04/01/yuengling-impact-being-felt-mass/kizbtou1OAfNCYsjDIN1II/story.html">Yuengling</a> to market in MA</h3>
-                    <h3>Worked on various projects to double their volume, cleanup their database, and improve a couple internal processes</h3>
-                    <h3>Watched this <a href="http://youtu.be/Ovj4hFxko7c">video</a> about UX</h3>
-                    <h3>Started my own <a href="http://ndrewdoherty.tumblr.com/">UX Toolkit</a></h3>
-                    <h3>Took another class at GA, this time <a href="https://generalassemb.ly/education/user-experience-design">UXD</a></h3>
-                    <h3>Designing my first app now</h3>
-                    <h3></h3>
-                
-                  
-                
-            </div>
+        <div id="home" class="section">
+            hey
+        </div> 
+        <div id="yuengling" class="section">
+            yo
+        </div>
+        <div id="withaview" class="section">
+            hi
+        </div>
+        <div id="statestreet" class="section">
+            boo
+            <div id="duckhunt"><img src="images/duckhunt.gif"></div>
+            
+        </div>
         
-                    <br>
-                    <h2>Now I'm looking to make something really cool. <br>
-                <a href="mailto:r.andrew.doherty@gmail.com">Email</a> me if you are looking for help.</h2>
-                    <br>
         
-            <div id="contactLinks" class="linkedin-bg">
-            <a href="https://www.linkedin.com/in/ndrewdoherty"><div id="linkedin">Linkedin</div></a>
-            <a href="http://smarterer.com/randrewdoherty"><div id="linkedin" class="linkedin-bg">Smarterer</div></a>
-            <a href="AndrewDohertyResume.pdf" taget="_blank"><div id="linkedin" class="linkedin-bg">Resume</div></a>
-            </div>    
+       
             <div></div>
-        
-    </div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div id="pictures" class="section"></div>
         
        
        
@@ -135,5 +110,15 @@
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-52094511-1', 'ndrewdoherty.com');
+              ga('send', 'pageview');
+
         </script>
 </html>
