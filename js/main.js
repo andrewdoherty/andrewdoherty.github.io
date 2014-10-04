@@ -35,7 +35,7 @@ var data = {
     scaleShowLine : true,
 
     //Boolean - Whether we show the angle lines out of the radar
-    angleShowLineOut : true,
+    angleShowLineOut: true,
 
     //Boolean - Whether to show labels on the scale
     scaleShowLabels : false,
