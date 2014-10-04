@@ -1,0 +1,6 @@
+[submodule "charts/Charts.js"]
+	path = charts/Charts.js
+	url = https://github.com/nnnick/Chart.js
+[submodule "charts/charts/Charts.js"]
+	path = charts/charts/Charts.js
+	url = https://github.com/nnnick/Chart.js
