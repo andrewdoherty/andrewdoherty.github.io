@@ -104,7 +104,15 @@ textarea {
     height: 100px;
     width: 150px;
 }
-
+#name{
+    position: fixed;
+    left: 40px;
+    bottom: 30px;
+    font-size: 18px;
+}
+#name a{
+    color:#34495e;
+}
 #wrapper {
     display:block;
     height:10000px;
@@ -122,14 +130,29 @@ textarea {
 
 .section {
     text-align:center;
-    z-index:-1
+    
+}
+.invisionContainer{
+    position: relative;
+    width: 70%;
+    height: 70%;
+    margin: 50px auto;
+    display: inline-block;  
 }
 .invision{
-    position: absolute;
+    position: relative;
+    margin: -100px auto;
     z-index: 500;
-    vertical-align: top;
-    -webkit-transform:scale(.7);
-        
+    -webkit-transform:scale(.75);
+}
+#becky{
+    float: left;
+}
+#mike{
+    float:right;
+}
+#personal{
+    margin: -100px auto;
 }
 #words {
     position:relative;
@@ -138,9 +161,27 @@ textarea {
     color:#56bc8a;
     font-weight:300
 }
-
+#title {
+    background:#ecf0f1;
+    height:690px;
+    width:100%;
+    margin: auto;
+    padding-top: 80px;
+        
+}
+#title img{
+    max-height: 100%;
+    -webkit-transform:scale(.8);
+}
+.stats{
+    margin-top: 30px;
+    top:30px;
+}
+.personas {
+    margin-top: -50px;
+}
 #yuengling {
-    background:#dfeaea;
+    background:#ecf0f1;
     height:690px;
     width:100%
 }
@@ -148,17 +189,24 @@ textarea {
     max-height: 100%;
 }
 #withaview {
-    background:#dfeaea;
+    background:#ecf0f1;
     height:690px;
     width:100%
 }
 
 #statestreet {
-    background:#56bc8a;
+    background:#ecf0f1;
     height:690px;
     width:100%
 }
-
+.section h2{
+    top: 30px;
+    left: 50px;
+    position: absolute;
+    font-size: 36px;
+    
+}
+    
 #duckhunt {
     position:absolute;
     bottom:-20px;
@@ -166,7 +214,7 @@ textarea {
 }
 
 #pictures {
-    background:#dfeaea;
+    background:#ecf0f1;
     height:690px;
     margin:auto;
     position:absolute;

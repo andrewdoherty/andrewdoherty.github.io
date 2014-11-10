@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="970px" height="666px" viewBox="0 0 970 666" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>wakeupwars 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <text id="Motivated-Mark---The" sketch:type="MSTextLayer" font-family="Myriad Pro" font-size="37" font-weight="normal">
+            <tspan x="42" y="341" fill="#587FAC">Motivated Mark - The Good Habit Maker</tspan>
+            <tspan x="42" y="385" font-size="24" fill="#6A92BB">Mark is looking to form a new good habit. He wants to start to go to the gym in the </tspan>
+            <tspan x="42" y="414" font-size="24" fill="#6A92BB">morning and needs a little extra motivation to get going. He is pretty competitive </tspan>
+            <tspan x="42" y="443" font-size="24" fill="#6A92BB">and wouldn’t mind being punished if he can’t follow his desired schedule.</tspan>
+            <tspan x="773.664" y="443" font-family="Beirut" font-size="24" fill="#6A92BB"></tspan>
+        </text>
+        <text id="Problem" sketch:type="MSTextLayer" font-family="Myriad Pro" font-size="37" font-weight="normal" sketch:alignment="middle" fill="#587FAC">
+            <tspan x="496" y="-7"></tspan>
+            <tspan x="345.424" y="37" font-size="48" font-weight="bold">User Personas</tspan>
+            <tspan x="646.576" y="37" font-family="Lucida Grande"> </tspan>
+        </text>
+        <text id="Tardy-Tracy---The-Ba" sketch:type="MSTextLayer" font-family="Myriad Pro" font-size="37" font-weight="normal">
+            <tspan x="42" y="159" fill="#587FAC">Tardy Tracy - The Bad Habit Breaker</tspan>
+            <tspan x="578.426" y="159" font-size="22" fill="#FFFCEC"></tspan>
+            <tspan x="42" y="203" font-size="24" fill="#6A92BB">Tracy has never been a morning person and needs to end the bad habit of snoozing</tspan>
+            <tspan x="42" y="232" font-size="24" fill="#6A92BB">multiple times. She sees this as a personal challenge and would like to do it on her </tspan>
+            <tspan x="42" y="261" font-size="24" fill="#6A92BB">own but wouldn’t mind earning rewards for picking up a new good habit. </tspan>
+        </text>
+        <text id="Edge-Personas" sketch:type="MSTextLayer" font-family="Myriad Pro" font-size="37" font-weight="normal">
+            <tspan x="42" y="525" fill="#587FAC">Edge Personas</tspan>
+            <tspan x="42" y="569" font-size="24" font-weight="bold" fill="#587FAC">The Money Maker</tspan>
+            <tspan x="232.176" y="569" font-size="24" fill="#587FAC"> - A early riser who sees some of their friends using the app and thinks it</tspan>
+            <tspan x="42" y="598" font-size="24" fill="#587FAC">could be a way to make some easy money.</tspan>
+            <tspan x="42" y="627" font-size="24" font-weight="bold" fill="#587FAC">FOMO User</tspan>
+            <tspan x="162.48" y="627" font-size="24" fill="#587FAC"> - The user who use every form of social media and doesn’st yet use an alarm </tspan>
+            <tspan x="42" y="656" font-size="24" fill="#587FAC">that is connected to social media.</tspan>
+            <tspan x="375.096" y="656" font-family="Beirut" font-size="24" fill="#6A92BB"></tspan>
+        </text>
+    </g>
+</svg>
