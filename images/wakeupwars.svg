@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="380px" height="240px" viewBox="0 0 380 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>wakeupwars 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M236,118 L366,118" id="Line" stroke="#FAFF96" stroke-width="10" stroke-linecap="square" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+        <path d="M14,118 L144,118" id="Line-2" stroke="#FAFF96" stroke-width="10" stroke-linecap="square" filter="url(#filter-2)" sketch:type="MSShapeGroup"></path>
+        <text id="UP" stroke="#9B9B9B" sketch:type="MSTextLayer" font-family="Stencil Std" font-size="48" font-weight="bold" fill="#6ACEFF">
+            <tspan x="152" y="137">UP</tspan>
+        </text>
+        <text id="WAKE" stroke="#9B9B9B" stroke-width="0.5" sketch:type="MSTextLayer" font-family="Stencil Std" font-size="120" font-weight="bold" sketch:alignment="middle" line-spacing="122" fill="#6ACEFF">
+            <tspan x="6.88" y="89">WAKE</tspan>
+            <tspan x="10.84" y="235">WARS</tspan>
+        </text>
+    </g>
+</svg>
