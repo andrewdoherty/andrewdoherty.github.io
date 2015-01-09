@@ -231,7 +231,7 @@ textarea {
     margin:auto;
     padding-top:20%;
     overflow:scroll;
-    background-color:#dfeaea
+    background-color: white
 }
 
 #aboutWrapper h2 {
@@ -275,7 +275,7 @@ textarea {
     margin-bottom:20px;
     padding:20px;
     box-shadow:0 -1px 9px #56BA9B;
-    border-radius:5px;
+    border-radius:1px;
     background-color:#dfeaea
 }
 
@@ -371,6 +371,59 @@ textarea {
     font-weight:300
 }
 
+
+/* ======================================================================
+    Work
+   ======================================================================*/
+.wakeupwars{
+    width: 50%;
+    height: 45em;
+    margin: auto;
+    border: 1px solid black;
+}
+.wakeupwars h2,p{
+    width: 80%;
+    
+    margin: auto;
+    float: center;
+}
+.wakeupwars h2{
+    padding-top: 20px;   
+}
+.invision{
+    margin-top: -100px;
+
+    display: block;
+    width: 364px;
+    -webkit-transform:scale(.65);
+}
+#drakesduck img{
+    margin: auto;
+    display: block;
+}
+.logo{
+    width: 50%;
+    height: 45em;
+    border: 1px solid black;
+    margin: auto;
+}
+.logo h2{
+    text-align: center;
+}
+.wedding{
+    width: 50%;
+    height: 45em;
+    border: 1px solid black;
+    margin: auto;
+}
+#weddingsite img{
+    margin: 0 auto;
+    display: block;
+    padding-top: 10%;
+}
+
+
+
 /* ======================================================================
     Floating
    ======================================================================
@@ -455,7 +508,7 @@ body,html {
 body {
     font-family:'Raleway',Calibri,Arial,sans-serif;
     color:#56bc8a;
-    background:#91cfa1;
+    background:white;
     font-weight:300
 }
 
@@ -564,7 +617,7 @@ a:hover {
 }
 
 .dr-menu {
-    width:0;
+    width:0px;
     position:fixed;
     top:0;
     font-size:24px;
@@ -574,13 +627,13 @@ a:hover {
     padding-top:10px;
     font-family:'Raleway';
     height:100%;
-    display:hide;
-    -webkit-transition:width 1s ease;
-    -moz-transition:width 1s ease;
-    transition:width 1s ease;
-    -webkit-transform:1s;
-    -moz-transform:1s;
-    transform:1s
+    display:hidden;
+    -webkit-transition:width .5s ease-in;
+    -moz-transition:width .5s ease-in;
+    transition:width .5s ease-in;
+    -webkit-transform:.5s;
+    -moz-transform:.5s;
+    transform:.5s
 }
 
 .dr-menu > div {
@@ -595,13 +648,15 @@ a:hover {
     box-shadow:1px 0 10px 2px #34495e;
     color:#fff;
     z-index:2;
-    -webkit-transition:width 1s ease;
-    -moz-transition:width 1s ease;
-    transition:width 1s ease;
-    -webkit-transform:1s;
-    -moz-transform:1s;
-    transform:1s
+    display: visible;
+    -webkit-transition:width .5s ease-in;
+    -moz-transition:width .5s ease-in;
+    transition:width .5s ease-in;
+    -webkit-transform:.5s;
+    -moz-transform:.5s;
+    transform:.5s
 }
+
 
 .dr-menu > div .fa {
 /**top: 0;
@@ -803,16 +858,16 @@ a:hover {
     color:#e24e42
 }
 
-.dr-menu:not(.dr-menu-open) {
-    width:0;
-    -webkit-transition:width 1s ease;
-    -moz-transition:width 1s ease;
-    transition:width 1s ease;
-    -webkit-transform:1s;
-    -moz-transform:1s;
-    transform:1s
+/**.dr-menu:not(.dr-menu-open) {
+    
+    -webkit-transition:width .5s ease;
+    -moz-transition:width .5s ease;
+    transition:width .5s ease;
+    -webkit-transform:.5s;
+    -moz-transform:.5s;
+    transform:.5s
 }
-
+**/
 @media only screen and (max-width : 641px) {
 .dr-menu {
     height:150%;
@@ -905,6 +960,9 @@ a:hover {
     width:100%
 }
 }
+
+
+
 
 /* ==========================================================================
    Helper classes
@@ -1252,9 +1310,9 @@ mark {
 /**
  * Address margins set differently in IE 6/7.
  */
-p,pre {
+/**p,pre {
     margin:1em 0
-}
+}**/
 
 /**
  * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
