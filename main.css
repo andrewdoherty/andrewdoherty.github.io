@@ -390,12 +390,15 @@ textarea {
 .wakeupwars h2{
     padding-top: 10%;   
 }
-.wakeupwars a{
+.wakeupwars a:hover{
     -webkit-animation-name:colors;
     -webkit-animation-duration:3s;
     -webkit-animation-direction:normal;
     -webkit-animation-iteration-count:infinite;
     -webkit-animation-timing-function:linear;
+}
+.wakeupwars a{
+    font-weight: 400;
 }
 .invision1{
     margin: auto;
