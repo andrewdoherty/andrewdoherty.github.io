@@ -377,43 +377,71 @@ textarea {
    ======================================================================*/
 .wakeupwars{
     width: 50%;
-    height: 45em;
+    height: 60em;
     margin: auto;
-    border: 1px solid black;
+    border-bottom: 5px solid #ececec;
+    
 }
 .wakeupwars h2,p{
     width: 80%;
-    
     margin: auto;
     float: center;
 }
 .wakeupwars h2{
-    padding-top: 20px;   
+    padding-top: 10%;   
 }
-.invision{
+.wakeupwars a{
+    -webkit-animation-name:colors;
+    -webkit-animation-duration:3s;
+    -webkit-animation-direction:normal;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+}
+.invision1{
+    margin: auto;
     margin-top: -100px;
-
     display: block;
-    width: 364px;
+    width: 396px;
+    height: 834px;  
     -webkit-transform:scale(.65);
 }
+iframe{
+    width: 396px;
+    height: 834px;
+    overflow: hidden;
+}
+
 #drakesduck img{
     margin: auto;
     display: block;
 }
 .logo{
     width: 50%;
-    height: 45em;
-    border: 1px solid black;
+    height: 40em;
+    border-bottom: 5px solid #ececec;
     margin: auto;
 }
 .logo h2{
-    text-align: center;
+    padding-top: 10%;
+}
+.logo h2,p{
+    width: 80%;
+    margin: auto;
+}
+#drakesduck{
+    padding: 40px 0px;
 }
 .wedding{
     width: 50%;
-    height: 45em;
-    border: 1px solid black;
+    height: 40em;
+    border-bottom: 5px solid #ececec;
+    margin: auto;
+}
+.wedding h2{
+    padding-top: 10%;
+}
+.wedding h2,p{
+    width: 80%;
     margin: auto;
 }
 #weddingsite img{
