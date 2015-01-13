@@ -375,6 +375,18 @@ textarea {
 /* ======================================================================
     Work
    ======================================================================*/
+#projects{
+    width: 50%;
+    height: 10em;
+    margin: auto;
+    border-bottom: 5px solid #ececec;
+}
+#projects h1,h4{
+    width: 80%;
+    margin: 5em auto;
+    float: center;
+    text-align: center;
+}
 .wakeupwars{
     width: 50%;
     height: 60em;
@@ -414,16 +426,30 @@ iframe{
     height: 834px;
     overflow: hidden;
 }
-
+#drakesduck{
+    width: 100%;
+    margin: auto 5%;
+    
+}
 #drakesduck img{
+    float: left;
+    display: inline;
+    width: 30%;
+    padding: 10px;
+    margin: 10px auto;
+}
+#drakesduck1 img{
     margin: auto;
     display: block;
+    width: 50%;
+    padding: 3em 0;
 }
 .logo{
     width: 50%;
-    height: 40em;
+    height: 60em;
     border-bottom: 5px solid #ececec;
     margin: auto;
+    
 }
 .logo h2{
     padding-top: 10%;
@@ -432,9 +458,7 @@ iframe{
     width: 80%;
     margin: auto;
 }
-#drakesduck{
-    padding: 40px 0px;
-}
+
 .wedding{
     width: 50%;
     height: 40em;
@@ -453,8 +477,27 @@ iframe{
     display: block;
     padding-top: 10%;
 }
-
-
+.printdesign{
+    width: 50%;
+    height: 60em;
+    margin: auto;
+    border-bottom: 5px solid #ececec;
+    
+}
+.printdesign h2,p{
+    width: 80%;
+    margin: auto;
+    float: center;
+}
+.printdesign h2{
+    padding-top: 10%;   
+}
+#yueng img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 10%;    
+}
 
 /* ======================================================================
     Floating
