@@ -123,6 +123,10 @@ textarea {
     font-size:4em
 }
 
+#avatar{
+    margin: auto;
+    text-align: center;
+}
 
 #blur {
     -webkit-filter:blur(2px)
@@ -1034,9 +1038,12 @@ a:hover {
     text-shadow:1px 1px 20px #fff;
     width:100%
 }
+
+#avatar{
+    margin: 40% auto;
+    text-align: center;
 }
-
-
+}
 
 
 /* ==========================================================================
