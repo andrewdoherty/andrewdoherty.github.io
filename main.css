@@ -16,7 +16,7 @@ html,button,input,select,textarea {
 html {
     font-size:1em;
     line-height:1.4;
-    font-family:'Raleway',sans-serif
+    font-family:'Avenir Next','Raleway',sans-serif
 }
 
 /*
@@ -128,7 +128,7 @@ body{
     width:100%;
     position:absolute;
     top:0;
-    font-family:'Raleway',sans-serif;
+    font-family:'Avenir Next','Raleway',sans-serif;
     font-size:4em
 }
 
@@ -245,13 +245,15 @@ body{
     padding-top:20%;
     overflow:scroll;
     background-color: white;
+    font-weight: 400
     
 }
 
 #aboutWrapper h2 {
     text-align:center;
     margin-top:100px;
-    margin-bottom:60px
+    margin-bottom:60px;
+    font-weight: 200
 }
 
 #aboutWrapper h2>a {
@@ -401,9 +403,12 @@ body{
     float: center;
     text-align: center;
 }
+.invisionMobile{
+    display: none;
+}
 .wakeupwars{
     width: 50%;
-    height: 60em;
+    height: ;
     margin: auto;
     border-bottom: 5px solid #ececec;
     
@@ -428,16 +433,24 @@ body{
     color: black;
 }
 .invision1{
-    margin: auto;
+    margin: 0 auto;
     margin-top: -100px;
     display: block;
-    width: 396px;
-    height: 834px;  
+    width: 100%;
+    height: 940px;  
     -webkit-transform:scale(.65);
 }
 iframe{
-    width: 396px;
-    height: 834px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+#wrap{
+    height: 100%;
+    overflow: hidden;
+}
+.invision1>iframe{
     overflow: hidden;
 }
 #drakesduck{
@@ -511,6 +524,160 @@ iframe{
     margin: 0 auto;
     display: block;
     padding-top: 10%;    
+}
+
+
+
+
+/* ======================================================================
+    Work Mobile
+   ======================================================================*/
+
+@media (max-width: 740px) {
+
+
+
+#projects{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border-bottom: 5px solid #ececec;
+}
+#work h2{
+    text-align: center;
+}
+#work p{
+   text-align: justify;
+}
+.invisionMobile{
+    margin: 30% auto;
+    text-align: center;
+    float: center;
+    display: block;
+    
+}
+.invisionMobile h4{
+    margin: 15px 15px;;
+}
+.invisionMobile img{
+    width: 40%;
+    float: center;
+}
+#projects h1,h4{
+    width: 90%;
+    margin: 5em auto;
+    float: center;
+    text-align: center;
+}
+.wakeupwars{
+    width:90%;
+    height: 45em;
+    margin: auto;
+    border-bottom: 5px solid #ececec;
+    
+}
+.wakeupwars h2,p{
+    width: 100%;
+    margin: auto;
+    float: left;
+}
+    
+.wakeupwars h2{
+    padding-top: 10%; 
+}
+.wakeupwars a:hover{
+    -webkit-animation-name:colors;
+    -webkit-animation-duration:3s;
+    -webkit-animation-direction:normal;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+}
+.wakeupwars a{
+    font-weight: 500;
+    color: black;
+}
+.invision1{
+    visibility: hidden;
+
+}
+
+#drakesduck{
+    width: 90%;
+    margin: auto 5%;
+    height: 100%;
+    
+}
+#drakesduck img{
+    float: center;
+    display: block;
+    width: 80%;
+    padding: 20px;
+    margin: 10px auto;
+}
+#drakesduck1 img{
+    margin: auto;
+    display: block;
+    width: 80%;
+    padding: 3em 0;
+}
+.logo{
+    width: 80%;
+    height: 100%;
+    border-bottom: 5px solid #ececec;
+    margin: 20px auto;
+    padding-bottom: 50px;
+    
+}
+.logo h2{
+    padding-top: 10%;
+}
+.logo h2,p{
+    width: 90%;
+    margin: auto;
+}
+
+.wedding{
+    width: 95%;
+    height: 30em;
+    border-bottom: 5px solid #ececec;
+    margin: auto;
+}
+.wedding h2{
+    padding-top: 10%;
+}
+.wedding h2,p{
+    width: 90%;
+    margin: auto;
+}
+#weddingsite img{
+    margin: 0 auto;
+    display: block;
+    padding-top: 10%;
+    width: 80%;
+}
+.printdesign{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    border-bottom: 5px solid #ececec;
+    padding-bottom: 50%;
+    
+}
+.printdesign h2,p{
+    width: 80%;
+    margin: auto;
+    float: center;
+}
+.printdesign h2{
+    padding-top: 10%;   
+}
+#yueng img{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 10%;    
+}
+
 }
 
 /* ======================================================================
@@ -595,7 +762,7 @@ body,html {
 }
 
 body {
-    font-family:'Raleway',Calibri,Arial,sans-serif;
+    font-family:'Avenir Next','Raleway',Calibri,Arial,sans-serif;
     color:#56bc8a;
     background:white;
     font-weight:300
@@ -714,7 +881,7 @@ a:hover {
     font-weight:400;
     color:#34495e;
     padding-top:10px;
-    font-family:'Raleway';
+    font-family:'Avenir Next','Raleway';
     height:100%;
     display:hidden;
     -webkit-transition:width .5s ease-in;
