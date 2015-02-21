@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50.7960958%" cy="48.2289062%" fx="50.7960958%" fy="48.2289062%" r="82.3855028%" id="radialGradient-1">
+            <stop stop-color="#2784C1" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="16" height="16" rx="1.28"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="favicon" sketch:type="MSLayerGroup" transform="translate(1.000000, 0.000000)">
+            <mask id="mask-4" sketch:name="Rectangle 1" fill="white">
+                <use xlink:href="#path-3"></use>
+            </mask>
+            <g id="Rectangle-1" filter="url(#filter-2)">
+                <use fill="url(#radialGradient-1)" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-3"></use>
+                <use fill="none" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

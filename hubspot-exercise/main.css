@@ -1,0 +1,394 @@
+body{
+    font-family: 'Avenir Next', 'helvetica', 'sans-serif';
+    width: 100%;
+
+    
+}
+.navbar{
+    background-color: #eeeeee;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+    height: 90px;
+    overflow: scroll;
+}
+#wrapper{
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    vertical-align: middle;
+    height: 90px;   
+}
+#headerLogo{
+    font-size: 3em;
+    float: left;
+    display: block;
+    margin: 10px auto;
+    padding: 5px 20px;
+}
+#headerMenu{
+    float: right;
+    display: inline-block;
+    height: 90px;
+    vertical-align: baseline;
+    
+}
+#headerMenu li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+#headerMenu ul{
+    margin-top: 40px;
+}
+.backgroundSection{
+    height: 500px;
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: inset 2px 0px 23px 3px rgba(76, 76, 76, 1.0);
+}
+
+#backgroundImage{
+    position: relative;
+    background-image: url(banner.jpg);
+    height: 500px;
+    width: 100%;
+    margin: 0px 0px;
+    display: block;
+    z-index: 0;
+    font-size: 28px;
+    color: white;
+}
+#backgroundText{
+    position: relative;
+    width: 80%;
+    height: 510px;
+    padding-top:55px;
+    margin-left: 200px;
+    
+}
+#dummySection{
+    width:100%;
+    text-align: center;
+    margin: auto;
+    background: white;
+    padding-top: 50px;
+    position: relative;
+    height: 500px;
+    box-shadow: 2px 0px 23px 3px rgba(76, 76, 76, 0.8);
+}
+.dummyText{
+    width: 60%;
+    margin: auto;
+}
+#dummyText h1{
+    font-size: 28px;
+}
+  
+.dummyImages{
+    display: block;
+    margin: 0 auto;
+    width: 93%;
+    height: 225px;
+    
+}
+.grumpyCat{
+    background: 
+        linear-gradient(
+        rgba(75, 76, 76, 0.8), 
+        rgba(76, 76, 76, 0.8)
+        ),
+        url(grumpy1.jpg);
+    height: 225px;
+    width: 225px;
+    float: left;
+    margin: 20px 5px;
+    display: table;
+    text-align: center;
+    vertical-align: center;
+    
+}
+.grumpyCat span{
+    display: table-cell;
+    color: white;
+    vertical-align: middle;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.articleSection{
+    position: relative;
+    clear: left;
+    width: 80%;
+    margin: 50px auto;
+    
+}
+.article img{
+    float: left;
+    padding: 40px;
+    display: table;
+    clear: left;
+}
+.article{
+    padding:40px;
+    vertical-align: baseline;
+}
+.articleText{
+    margin-top: 35px;
+}
+footer{
+    background: #414141;
+    height: 300px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color:#eeeeee;
+    box-shadow: inset 2px 0px 23px 3px rgba(76, 76, 76, 0.8);
+}
+#footer{
+   width: 80%;
+    margin: 0 auto;
+    
+}
+.footerMenu{
+    float: left;
+    padding: 40px;
+}
+.footerMenu ul{
+    list-style-type: none;
+}
+.footerMenu h3{
+    text-indent: 40px;
+}
+
+
+/****************************************************
+    Mobile
+ ***************************************************/
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+
+body{
+    font-family: 'Avenir Next', 'helvetica', 'sans-serif';
+    width: 100%;
+
+    
+}
+.navbar{
+    background-color: #eeeeee;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+    height: 90px;
+    overflow: scroll;
+}
+#wrapper{
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header{
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    vertical-align: middle;
+    height: 90px;   
+}
+#headerLogo{
+    font-size: 3em;
+    float: left;
+    display: block;
+    margin: 10px auto;
+    padding: 5px 20px;
+}
+#headerMenu{
+    float: right;
+    display: inline-block;
+    height: 90px;
+    vertical-align: baseline;
+    font-size: 2em;
+    
+}
+#headerMenu li{
+    list-style-type: none;
+    display: inline;
+    padding: 30px;
+}
+#headerMenu ul{
+    margin-top: 30px;
+}
+.backgroundSection{
+    height: 500px;
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: inset 2px 0px 23px 3px rgba(76, 76, 76, 1.0);
+}
+
+#backgroundImage{
+    position: relative;
+    background-image: url(banner.jpg);
+    height: 500px;
+    width: 100%;
+    margin: 0px 0px;
+    display: block;
+    z-index: 0;
+    font-size: 2em;
+    color: white;
+}
+#backgroundText{
+    position: relative;
+    width: 80%;
+    height: 510px;
+    padding-top:1px;
+    margin-left: 100px;
+    
+}
+#backgroundText h1{
+    margin-top:20px;
+    margin-left: -10px;
+}
+    
+#dummySection{
+    width:100%;
+    
+    margin: auto;
+    background: white;
+    padding-top: 50px;
+    position: relative;
+    height: 3300px;
+    box-shadow: 2px 0px 23px 3px rgba(76, 76, 76, 0.8);
+}
+.dummyText{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.dummyText h1{
+    font-size: 4em;
+}
+.dummyText p{
+    font-size: 3em;
+}  
+.dummyImages{
+    display:block;
+    margin: 90px;
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    padding: auto;
+}
+.grumpyCat{
+    background: 
+        linear-gradient(
+        rgba(75, 76, 76, 0.8), 
+        rgba(76, 76, 76, 0.8)
+        ),
+        url(grumpy1.jpg);
+    background-size: cover;
+    height: 750px;
+    width: 90%;
+    
+    margin: 30px auto;
+    display: table;
+    text-align: center;
+    vertical-align: center;
+    
+}
+.grumpyCat span{
+    display: table-cell;
+    color: white;
+    vertical-align: middle;
+    font-size: 4em;
+    vertical-align: middle;
+}
+
+.articleSection{
+    position: relative;
+    clear: left;
+    width: 90%;
+    margin: 50px auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.article img{
+    float: left;
+    padding: 40px;
+    display: table;
+    clear: left;
+    width: 90%;
+}
+.article{
+    padding:40px;
+    vertical-align: baseline;
+}
+.articleText{
+    margin-top: 50px;
+    
+}
+.articleText h3{
+    font-size: 4em;
+    
+}
+.article p{
+    font-size: 3em;
+}
+footer{
+    
+    background: #414141;
+    height:3300px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color:#eeeeee;
+    box-shadow: inset 2px 0px 23px 3px rgba(76, 76, 76, 0.8);
+}
+#footer{
+   width:50%;
+    margin: 0 auto;
+    
+}
+.footerMenu{
+    float: left;
+    padding: 40px;
+}
+.footerMenu ul{
+    list-style-type: none;
+    font-size: 3em;
+}
+.footerMenu li{
+    padding-top: 10px;
+}
+.footerMenu h3{
+    text-indent: 40px;
+    font-size: 4em;
+}
+
+
+
+}
+
+
+
+

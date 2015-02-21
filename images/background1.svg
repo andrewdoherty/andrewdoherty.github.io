@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="430px" height="1050px" viewBox="0 0 430 1050" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="64.4876453%" x2="-62.6841244%" y2="-44.3804506%" id="linearGradient-1">
+            <stop stop-color="#BBB7B7" stop-opacity="0.74646173" offset="0%"></stop>
+            <stop stop-color="#469395" stop-opacity="0.565783514" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="-310" y="310" width="1050" height="430"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Rectangle-1">
+            <use fill="url(#linearGradient-1)" sketch:type="MSShapeGroup" transform="translate(215.000000, 525.000000) rotate(-90.000000) translate(-215.000000, -525.000000) " xlink:href="#path-2"></use>
+            <use fill-opacity="0.300000668" fill="none" xlink:href="#path-2"></use>
+            <use fill-opacity="0.300000668" fill="none" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

@@ -15,7 +15,7 @@ var YTMenu = (function() {
 		[].slice.call( document.querySelectorAll( '.dr-menu' ) ).forEach( function( el, i ) {
 
 			var trigger = el.querySelector( 'div.dr-trigger' ),
-				icon = trigger.querySelector( 'span.dr-icon-menu' ),
+				icon = trigger.querySelector( 'span.favicon' ),
 				open = false;
 
 			trigger.addEventListener( 'click', function( event ) {
