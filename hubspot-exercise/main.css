@@ -94,13 +94,13 @@ body{
     margin: auto;
 }
 #dummyText h1{
-    font-size: 28px;
+    font-size: 1.4em;
 }
   
 .dummyImages{
     display: block;
-    margin: 0 auto;
-    width: 93%;
+    margin: 20px 30px;
+    width: 99%;
     height: 225px;
     
 }
@@ -112,7 +112,7 @@ body{
         ),
         url(grumpy1.jpg);
     height: 225px;
-    width: 225px;
+    width: 30%;
     float: left;
     margin: 20px 5px;
     display: table;
@@ -124,7 +124,7 @@ body{
     display: table-cell;
     color: white;
     vertical-align: middle;
-    font-size: 24px;
+    font-size: 2em;
     vertical-align: middle;
 }
 
@@ -205,7 +205,6 @@ body{
     overflow: hidden;
     margin: 0 auto;
 }
-
 .header{
     width: 95%;
     margin: 0 auto;
@@ -225,8 +224,7 @@ body{
     display: inline-block;
     height: 90px;
     vertical-align: baseline;
-    font-size: 2em;
-    
+    font-size: 1.8em;
 }
 #headerMenu li{
     list-style-type: none;
@@ -268,10 +266,8 @@ body{
     margin-top:20px;
     margin-left: -10px;
 }
-    
 #dummySection{
     width:100%;
-    
     margin: auto;
     background: white;
     padding-top: 50px;
@@ -313,7 +309,6 @@ body{
     display: table;
     text-align: center;
     vertical-align: center;
-    
 }
 .grumpyCat span{
     display: table-cell;
@@ -322,7 +317,6 @@ body{
     font-size: 4em;
     vertical-align: middle;
 }
-
 .articleSection{
     position: relative;
     clear: left;
@@ -344,7 +338,6 @@ body{
 }
 .articleText{
     margin-top: 50px;
-    
 }
 .articleText h3{
     font-size: 4em;
@@ -367,7 +360,6 @@ footer{
 #footer{
    width:50%;
     margin: 0 auto;
-    
 }
 .footerMenu{
     float: left;
@@ -384,9 +376,6 @@ footer{
     text-indent: 40px;
     font-size: 4em;
 }
-
-
-
 }
 
 
