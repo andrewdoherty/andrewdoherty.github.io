@@ -473,7 +473,7 @@ iframe{
 }
 .logo{
     width: 50%;
-    height: 60em;
+    height: 1000px;
     border-bottom: 5px solid #ececec;
     margin: auto;
     
@@ -488,7 +488,7 @@ iframe{
 
 .wedding{
     width: 50%;
-    height: 40em;
+    height: 800px;
     border-bottom: 5px solid #ececec;
     margin: auto;
 }
@@ -506,7 +506,7 @@ iframe{
 }
 .printdesign{
     width: 50%;
-    height: 60em;
+    height: 1000px;
     margin: auto;
     border-bottom: 5px solid #ececec;
     
