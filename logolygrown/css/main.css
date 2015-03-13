@@ -1,0 +1,973 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html{
+    min-height: 100%;
+    min-width: 100%;
+}
+body{
+    font-family: 'Avenir Next';
+    height: 100%;
+    background: -moz-linear-gradient(top,  rgba(234,245,193,0.3) 0%, rgba(215,229,247,0.87) 81%, rgba(215,229,246,0.91) 87%, rgba(215,234,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(234,245,193,0.3)), color-stop(81%,rgba(215,229,247,0.87)), color-stop(87%,rgba(215,229,246,0.91)), color-stop(100%,rgba(215,234,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(234,245,193,0.3) 0%,rgba(215,229,247,0.87) 81%,rgba(215,229,246,0.91) 87%,rgba(215,234,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(234,245,193,0.3) 0%,rgba(215,229,247,0.87) 81%,rgba(215,229,246,0.91) 87%,rgba(215,234,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(234,245,193,0.3) 0%,rgba(215,229,247,0.87) 81%,rgba(215,229,246,0.91) 87%,rgba(215,234,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(234,245,193,0.3) 0%,rgba(215,229,247,0.87) 81%,rgba(215,229,246,0.91) 87%,rgba(215,234,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4deaf5c1', endColorstr='#d7eaff',GradientType=0 ); /* IE6-9 */
+    background-repeat: no-repeat;
+
+}
+header{
+    height: 180px;
+    width: 100%;
+    margin-top: 0px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 5px 25px 0px rgba(168,168,168,0.25);
+    z-index: 1;
+}
+.header{
+    width: 960px;
+    height: 180px;
+    margin: 20px auto;
+
+}
+#logo{
+    display:block;
+    float: left;
+    padding-right: 25px;
+}
+#logoText{
+    float: left;
+    color: #5e8e71;
+    padding-top: 20px;
+}
+#logolyBold{
+    font-size: 48px;
+    font-weight: 600;
+    font-style: italic;
+}
+#logolyLight{
+    font-size: 48px;
+    font-weight: 300;
+    font-style: italic;
+}
+#logoText p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0;
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+    margin-top: 250px;
+    position: absolute;
+
+}
+#locationGrid{
+    width: 960px;
+    min-height: 100%;
+    margin: auto;
+    position: relative;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+.gridIn{
+    width: 300px;
+    height: 300px;
+    float: left;
+    display: relative;
+    margin: 10px 10px;
+    border-radius: 10px;
+    transition: background-color 1s cubic-bezier(.24,.08,.18,.99);
+    -webkit-transition: background-color 1s cubic-bezier(.24,.08,.18,.99);
+    background-color: rgba(114, 190, 145, 1.0);
+    z-index: 1;
+
+}
+.gridInText{
+    width:270px;
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 240px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+}
+.gridIn:hover{
+    transition: background-color 1s cubic-bezier(.24,.08,.18,.99);
+    -webkit-transition: background-color 1s cubic-bezier(.24,.08,.18,.99);
+    background-color: rgba(114, 190, 145, 0);
+}
+.gridInText:hover{
+    transition: color .5s cubic-bezier(.24,.08,.18,.99);
+    -webkit-transition: color .5s cubic-bezier(.24,.08,.18,.99);
+    color: #709e84;
+}
+.gridDrakes{
+    background-image: url('../img/DrakesGridImage.png');
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: -1
+}
+.gridIn a{
+    width:300px;
+    height:300px;
+
+
+}
+.gridVote{
+    background-image: url('../img/voteGridImage.png');
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: -1
+}
+
+
+.gridNewLocation{
+    width: 290px;
+    height: 290px;
+    position: relative;
+    z-index: -1;
+    color: #709e84;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    background-color: rgba(114, 190, 145, 0);
+    border: 5px solid #709e84;
+    margin-bottom: 80px;
+}
+.gridNewLocation a{
+    text-decoration:none;
+    color:#709e84;
+}
+.newLocation1{
+    padding-top: 15px;
+    text-align: center;
+}
+.newLocation2{
+    text-align: center;
+}
+#footer{
+    width: 100%;
+    margin: 0px 0px auto;
+    color: #709e84;
+    position:relative;
+    height: 300px;
+    bottom: 0px;
+    background-color: white;
+    box-shadow: 0px 5px 25px 0px rgba(168,168,168,0.50);
+    float: left;
+
+}
+#footerContainer{
+    width: 960px;
+    height: 250px;
+    margin: 20px auto;
+}
+.footerMenu{
+    float: left;
+    display: block;
+}
+.footerMenu li{
+    list-style-type: none;
+    font-size: 24px;
+}
+.footerMenu h3{
+    text-indent: 40px;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+.footerMenu a{
+    color: #709e84;
+    text-decoration: none;
+}
+.footerMenu a:hover{
+    -webkit-transition: font-weight .5s ease;
+    -moz-transition: font-weight .5s ease;
+    -o-transition: font-weight .5s ease;
+    transition: font-weight .5s ease;
+    font-weight: 600;
+
+}
+.logolyFooter{
+    width: 400px;
+    margin-left: -30px;
+}
+.aboutFooter{
+    width: 180px;
+}
+.connectFooter{
+    width: 200px;
+}
+.logolyBold{
+    font-weight: 700;
+    font-style: italic;
+}
+.logolyLight{
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* ==========================================================================
+   Tips Page
+   ========================================================================== */
+   @media (min-width: 601px){
+#tips{
+    height:1200px;
+    position: relative;
+}
+#tips h1{
+    height:100px;
+    width:50%;
+    margin:auto;
+    padding-top: 350px;
+    padding-bottom:100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    color: #5E8E71;
+
+}
+#tipsLinks{
+    width: 800px;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    font-size:20px;
+}
+.tipsLocation{
+    float:left;
+    width: 44%;
+    padding: 20px;
+    font-weight: 600;
+    color: #5E8E71;
+    border-right: 1px dotted #5E8E71;
+}
+.tipsLocationBox{
+    height:100px;
+    width:250px;
+    background:#5E8E71;
+    margin: 50px auto;
+    z-index:-1;
+}
+
+.tipsLocationBox a{
+    position: relative;
+    top: 30%;
+    font-size:30px;
+    color:#ffffff;
+    text-decoration:none;
+    padding:auto;
+    letter-spacing:1px;
+}
+
+
+.tipsProduct{
+    float:left;
+    width: 45%;
+    padding: 20px;
+    font-weight: 600;
+    color: #5E8E71
+}
+.tipsProductBox{
+    height:100px;
+    width:250px;
+    background:#5E8E71;
+    margin: 50px auto;
+    z-index:-1;
+
+}
+.tipsProductBox a{
+    position: relative;
+    top: 30%;
+    font-size:30px;
+    color:#ffffff;
+    text-decoration:none;
+    padding:auto;
+    letter-spacing:1px;
+}
+.tipsLocationBox:hover{
+    outline:5px solid #B7EECD;
+    -webkit-transition-delay:.1s;
+    -webkit-transition-duration:.3s;
+    box-shadow:3px 2px 30px grey;
+    color:rgba(255,255,255)
+}
+.tipsProductBox:hover{
+    outline:5px solid #B7EECD;
+    -webkit-transition-delay:.1s;
+    -webkit-transition-duration:.3s;
+    box-shadow:3px 2px 30px grey;
+    color:rgba(255,255,255)
+}
+
+}
+/* ==========================================================================
+   Tips Page - Mobile
+   ========================================================================== */
+   @media (max-width: 600px){
+#tips{
+    height:100%;
+    position: relative;
+}
+#tips h1{
+    height:200px;
+    width:90%;
+    margin:auto;
+    padding-top: 300px;
+    padding-bottom:100px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    color: #5E8E71;
+
+}
+#tipsLinks{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    font-size:22px;
+}
+.tipsLocation{
+    float:left;
+    width: 90%;
+    padding: 20px;
+    font-weight: 600;
+    color: #5E8E71;
+    border-bottom: 1px dotted #5E8E71;
+}
+.tipsLocationBox{
+    height:100px;
+    width:250px;
+    background:#5E8E71;
+    margin: 50px auto;
+    z-index:-1;
+}
+
+.tipsLocationBox a{
+    position: relative;
+    top: 30%;
+    font-size:30px;
+    color:#ffffff;
+    text-decoration:none;
+    padding:auto;
+    letter-spacing:1px;
+}
+
+
+.tipsProduct{
+    float:left;
+    width: 90%;
+    padding: 20px;
+    font-weight: 600;
+    color: #5E8E71
+}
+.tipsProductBox{
+    height:100px;
+    width:250px;
+    background:#5E8E71;
+    margin: 50px auto;
+    z-index:-1;
+
+}
+.tipsProductBox a{
+    position: relative;
+    top: 30%;
+    font-size:30px;
+    color:#ffffff;
+    text-decoration:none;
+    padding:auto;
+    letter-spacing:1px;
+}
+.tipsLocationBox:hover{
+    outline:5px solid #B7EECD;
+    -webkit-transition-delay:.1s;
+    -webkit-transition-duration:.3s;
+    box-shadow:3px 2px 30px grey;
+    color:rgba(255,255,255)
+}
+.tipsProductBox:hover{
+    outline:5px solid #B7EECD;
+    -webkit-transition-delay:.1s;
+    -webkit-transition-duration:.3s;
+    box-shadow:3px 2px 30px grey;
+    color:rgba(255,255,255)
+}
+}
+
+/* ==========================================================================
+   DrakesLandingPage
+   ========================================================================== */
+
+.drakesBackground{
+    background-image: url('../img/drakesBackground.png');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    overflow-y: scroll;
+    position: absolute;
+    margin-top: 180px;
+    display: inline-block;
+    float: left;
+
+}
+.drakesTitle{
+    margin: 200px auto;
+    text-align: center;
+    font-size: 120px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 30px #183A62;
+}
+.drakesMain{
+    height: 3000px;
+    background: rgba(114, 190, 145, 1.0);
+    width: 100%;
+    display: block;
+    clear: left;
+}
+.drakesIntro{
+    width: 100%;
+    height: 500px;
+    background: #5E8E71;
+    box-shadow: 0px 0px 18px 5px rgba(0,0,0,0.50);
+    display: block;
+    position: relative;
+    top: 840px;
+    transform: skewY(-2deg);
+}
+.drakesDuck img{
+    height: 300px;
+    position: relative;
+    z-index: 3;
+    display: visible;
+    padding-top: 80px;
+    padding-left: 250px;
+    float: left;
+    transform: skewY(2deg);
+}
+.drakesWhy{
+    color: #ffffff;
+    transform: skewY(2deg);
+    padding-top: 80px;
+    padding-left: 100px;
+    float: left;
+}
+.drakesWhy h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+/* ==========================================================================
+   Mobile css
+   ========================================================================== */
+
+@media (max-width: 600px){
+
+html{
+    min-height: 100%;
+    width: 100%;
+
+}
+body{
+    font-family: 'Avenir Next';
+    height: 100%;
+    width: 100%;
+    background: -moz-linear-gradient(top,  rgba(234,245,193,0.3) 0%, rgba(215,229,247,0.87) 81%, rgba(215,229,246,0.91) 87%, rgba(215,234,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(234,245,193,0.3)), color-stop(81%,rgba(215,229,247,0.87)), color-stop(87%,rgba(215,229,246,0.91)), color-stop(100%,rgba(215,234,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(234,245,193,0.3) 0%,rgba(215,229,247,0.87) 81%,rgba(215,229,246,0.91) 87%,rgba(215,234,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(234,245,193,0.3) 0%,rgba(215,229,247,0.87) 81%,rgba(215,229,246,0.91) 87%,rgba(215,234,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(234,245,193,0.3) 0%,rgba(215,229,247,0.87) 81%,rgba(215,229,246,0.91) 87%,rgba(215,234,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(234,245,193,0.3) 0%,rgba(215,229,247,0.87) 81%,rgba(215,229,246,0.91) 87%,rgba(215,234,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4deaf5c1', endColorstr='#d7eaff',GradientType=0 ); /* IE6-9 */
+    background-repeat: no-repeat;
+
+}
+
+header{
+    height: 130px;
+    width: 100%;
+    margin-top: 0px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 5px 25px 0px rgba(168,168,168,0.50);
+    z-index: 1;
+}
+.header{
+    width: 95%;
+    height: 130px;
+    margin: 0px 0px;
+    padding-left: 10px;
+}
+#logo{
+    position: absolute;
+    padding-left: .4em;
+    padding-right: 0em;
+    padding-top: 1em;
+    width: 6em;
+    height: 6em;
+}
+#logo img{
+    height: 6em;
+    width: 6em;
+}
+#logoText{
+    position: absolute;
+    color: #5e8e71;
+    padding-top: 2em;
+    padding-left: 10em;
+    width: 60%;
+
+
+}
+#logolyBold{
+    font-size: 1.4em;
+    font-weight: 600;
+    font-sztyle: italic;
+}
+#logolyLight{
+    font-size: 1.4em;
+    font-weight: 300;
+    font-style: italic;
+}
+#logoText p{
+    font-size: .8em;
+    font-weight: 400;
+    margin: 0 0;
+    width: 100%
+
+
+}
+
+#locationGrid{
+    width: 95%;
+    min-height: 100%;
+    margin: auto;
+    position: relative;
+    padding-top: 160px;
+}
+.gridIn{
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    float: center;
+    display: relative;
+    border-radius: 10px;
+    transition: background-color 1s cubic-bezier(.24,.08,.18,.99);
+    -webkit-transition: background-color 1s cubic-bezier(.24,.08,.18,.99);
+    background-color: rgba(114, 190, 145, 0);
+    z-index: 1;
+
+}
+.gridInText{
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 240px;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.gridIn:hover{
+    transition: background-color 1s cubic-bezier(.24,.08,.18,.99);
+    -webkit-transition: background-color 1s cubic-bezier(.24,.08,.18,.99);
+    background-color: rgba(114, 190, 145, 0);
+}
+.gridInText:hover{
+    transition: color .5s cubic-bezier(.24,.08,.18,.99);
+    -webkit-transition: color .5s cubic-bezier(.24,.08,.18,.99);
+
+}
+.gridDrakes{
+    background-image: url('../img/DrakesGridImage.png');
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(114, 190, 145, 0);
+    color: #709e84;
+}
+.logoText{
+    color: #709e84;
+}
+.gridOut{
+    background-color: rgba(114, 190, 145, 1.0);
+    color:#ffffff;
+}
+.votingText{
+    color:#ffffff;
+}
+#footer{
+    width: 100%;
+    margin: auto;
+    color: #709e84;
+    height: 930px;
+    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 0px 5px 25px 0px rgba(168,168,168,0.50);
+    float: left;
+    margin-top: 100px;
+}
+#footerContainer{
+    width: 100%;
+    height: 930px;
+    margin: auto;
+    padding-top: 20px;
+}
+.footerMenu{
+    float: left;
+    display: block;
+}
+.footerMenu li{
+    list-style-type: none;
+    font-size: 24px;
+}
+.footerMenu h3{
+    text-indent: 40px;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+.footerMenu a{
+    color: #709e84;
+    text-decoration: none;
+}
+.footerMenu a:hover{
+    -webkit-transition: font-weight .5s ease;
+    -moz-transition: font-weight .5s ease;
+    -o-transition: font-weight .5s ease;
+    transition: font-weight .5s ease;
+    font-weight: 600;
+
+}
+.logolyFooter{
+    width: 80%;
+    margin-left: -30px;
+    margin: auto;
+}
+.aboutFooter{
+    width: 80%;
+}
+.connectFooter{
+    width: 80%;
+}
+.logolyBold{
+    font-weight: 700;
+    font-style: italic;
+}
+.logolyLight{
+    font-weight: 300;
+    font-style: italic;
+}
+
+}
+@media (max-width: 380px){
+
+.header{
+    width: 95%;
+}
+#logoText{
+
+    color: #5e8e71;
+    padding-top: 35px;
+    padding-left: 120px;
+    width: 60%;
+
+}
+#logo img{
+    height: 6em;
+    width: 6em;
+
+}
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
