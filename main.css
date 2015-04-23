@@ -136,7 +136,16 @@ body{
     margin: auto;
     text-align: center;
 }
-
+.avatarDesc{
+    font-size: 1.5em;
+    font-style: oblique;
+    font-weight: 300;
+    padding-top: 30px;
+}
+.arrow{
+    padding-top: 30px;
+    
+}
 #blur {
     -webkit-filter:blur(2px)
 }
